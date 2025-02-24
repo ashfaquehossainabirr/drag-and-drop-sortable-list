@@ -21,6 +21,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.box {
+    padding: 100px 0;
+}
+
 .draggable-list {
     border: 1px solid var(--border-color);
     color: var(--text-color);
