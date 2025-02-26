@@ -13,27 +13,30 @@
 }
 
 body {
-    background-color: #fff;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    height: 100vh;
-    margin: 0;
-    font-family: 'Lato', sans-serif;
-}
-
-.box {
-    padding: 50px 0 80px;
-}
-
-.box h1,
-.box p {
-    margin-bottom: 20px;
-    text-align: center;
+    padding: 50px 0;
 }
 
 .draggable-list {
+    margin-bottom: 20px;
     border: 1px solid var(--border-color);
     color: var(--text-color);
     padding: 0;
@@ -86,11 +89,10 @@ body {
 }
 
 .check-btn {
-    margin: 20px auto 0;
     padding: 10px 20px;
     font-size: 16px;
-    cursor: pointer;
     border: none;
+    cursor: pointer;
     color: var(--text-color);
     background-color: var(--background-color);
 }
