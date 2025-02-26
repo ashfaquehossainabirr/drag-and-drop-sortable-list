@@ -86,13 +86,13 @@ body {
 }
 
 .check-btn {
-    background-color: var(--background-color);
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
     border: none;
     color: var(--text-color);
-    font-size: 16px;
-    text-align: center;
-    padding: 10px 20px;
-    cursor: pointer;
+    background-color: var(--background-color);
 }
 
 .check-btn:active {
