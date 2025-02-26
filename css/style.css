@@ -27,6 +27,12 @@ body {
     padding: 50px 0 80px;
 }
 
+.box h1,
+.box p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 .draggable-list {
     border: 1px solid var(--border-color);
     color: var(--text-color);
